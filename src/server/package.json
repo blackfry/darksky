@@ -1,0 +1,14 @@
+{
+  "description": "Satisfies Dark Sky's requirement for make api requests behind a proxy server to keep keys hidden",
+  "name": "darksky-proxy",
+  "dependencies": {
+      "express": "^4.14.0",
+      "body-parser": "^1.16.0",
+      "isomorphic-fetch": "^2.2.1",
+      "es6-promise": "^4.0.5"
+  },
+
+  "scripts": {
+    "server": "node server.js"
+  }
+}

@@ -1,0 +1,22 @@
+.video_item_title {
+    font-size: 60px;
+    padding-left: inherit;
+}
+
+@media only screen and (min-width: 769px) {
+    .mobile-hide {
+        display: none !important;
+        background-color: white !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-show {
+        display: none !important;
+        background-color: white !important;
+    }
+
+    .scale-title {
+        font-size: 20px;
+    }
+}
