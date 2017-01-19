@@ -7,11 +7,11 @@ clone repo/download to {pathname}
 ```
 
 
-cd {pathname}/app/
+cd {pathname}/darksky-master/
 npm install
 npm start
 
-cd server/
+cd src/server/
 npm install
 npm run server
 

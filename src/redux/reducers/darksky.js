@@ -1,8 +1,8 @@
 import * as actionTypes from '../actionTypes';
 
-let defaultweatherState = {
+let defaultWeatherState = {
     weatherInitiated: null,
-    weatherSuccess: true,
+    weatherSuccess: null,
     weatherFailed: null,
     weatherResults: {
         "lattitude": 0,
@@ -51,7 +51,7 @@ let defaultweatherState = {
 };
 
 
-const weatherReducer = (state = defaultweatherState, action) => {
+const weatherReducer = (state = defaultWeatherState, action) => {
     switch (action.type) {
 
         case actionTypes.GET_WEATHER_INITIATE:
